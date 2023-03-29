@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="horizontal"
+    android:background="#EDEDED"
+    android:layout_margin="10dp"
+    >
+
+    <ImageView
+
+        android:id="@+id/img_anhBia"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@color/purple_200"/>
+    <LinearLayout
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_idTruyen"
+            android:text="ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/tv_tenTruyen"
+            android:text="Tên Truyện"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tv_mota"
+            android:text="Mô Tả"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/tv_tenTG"
+            android:text="Tên Tác Giả"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/tv_namSX"
+            android:text="Năm Sản Xuất"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+</LinearLayout>
